@@ -4,10 +4,10 @@ public class ClassePessoa {
         }
     
         public static class Person {
-            String nome;
-            int idade;
-            int peso;
-            int dinheiro;
+            String name;
+            int age;
+            int weight;
+            int money;
         }
     
 }
