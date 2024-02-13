@@ -2,35 +2,35 @@ package starcraft;
 
 public class starcraft {
     public static void main(String[] args) {
-        Zerg zerg1 = new Zerg();
-        Zerg zerg2 = new Zerg();
-        Zerg zerg3 = new Zerg();
-        Zerg zerg4 = new Zerg();
-        Zerg zerg5 = new Zerg();
+        Zerg drone = new Zerg();
+        Zerg zergling = new Zerg();
+        Zerg roach = new Zerg();
+        Zerg hydralisk = new Zerg();
+        Zerg baneling = new Zerg();
 
-        zerg1.nome = "z1";
-        zerg2.nome = "z2";
-        zerg3.nome = "z3";
-        zerg4.nome = "z4";
-        zerg5.nome = "z5";
+        drone.nome = "Uma unidade trabalhadora que coleta recursos e constrói estruturas.";
+        zergling.nome = "Uma unidade de infantaria rápida e barata, ideal para ataques rápidos e flanqueamentos.";
+        roach.nome = "Uma unidade de infantaria terrestre robusta, eficaz contra unidades terrestres e com capacidade de regeneração de vida.";
+        hydralisk.nome = "Uma unidade de infantaria terrestre de longo alcance, capaz de atacar tanto unidades terrestres quanto aéreas.";
+        baneling.nome = "Uma unidade suicida que explode ao se aproximar de unidades inimigas, causando danos em área.";
 
-        Protoss protoss1 = new Protoss();
-        Protoss protoss2 = new Protoss();
-        Protoss protoss3 = new Protoss();
+        Protoss probe = new Protoss();
+        Protoss zealot = new Protoss();
+        Protoss stalker = new Protoss();
 
-        protoss1.nome = "p1";
-        protoss2.nome = "p2";
-        protoss3.nome = "p3";
+        probe.nome = "Uma unidade trabalhadora que constrói estruturas e coleta recursos.";
+        zealot.nome = "Uma unidade de infantaria corpo a corpo, robusta e eficaz contra unidades terrestres.";
+        stalker.nome = "Uma unidade de infantaria que pode atacar tanto terrestres quanto aéreas. Possui capacidade de teletransporte curto, o que lhe confere mobilidade adicional.";
 
-        Terrano terran01 = new Terrano();
-        Terrano terran02 = new Terrano();
-        Terrano terran03 = new Terrano();
-        Terrano terran04 = new Terrano();
+        Terrano marine = new Terrano();
+        Terrano siegeTank = new Terrano();
+        Terrano medivac = new Terrano();
+        Terrano banshee = new Terrano();
 
-        terran01.nome = "terrano1";
-        terran02.nome = "terrano2";
-        terran03.nome = "terrano3";
-        terran04.nome = "terrano4";
+        marine.nome = "Uma unidade de infantaria básica, rápida e versátil. É eficaz contra outras unidades de infantaria e pode ser aprimorada para ter melhorias adicionais.";
+        siegeTank.nome = "Uma unidade de veículo que pode alternar entre modos de cerco e assalto. No modo de cerco, pode causar danos pesados a unidades .";
+        medivac.nome = "Uma nave de suporte que pode transportar unidades de infantaria e curá-las. É essencial para movimentos rápidos de tropas e para manter a infantaria viva durante os combates.";
+        banshee.nome = "Uma aeronave furtiva que pode atacar unidades terrestres e aéreas. É particularmente eficaz contra unidades de infantaria e estruturas.";
     }
 
     public static class Zerg {
