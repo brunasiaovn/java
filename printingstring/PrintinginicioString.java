@@ -3,7 +3,7 @@ package printingstring;
 public class PrintinginicioString {
 
     public static void main(String[] args) {
-        writeToConsole("uma frase que ocupa uma única linha");
+        writeToConsole("Olá, mundo!");
     }
 
     public static void writeToConsole(String s) {
