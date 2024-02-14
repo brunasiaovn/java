@@ -1,10 +1,10 @@
-## nossa tarefa é encher a piscina do navio. Calcule quantos litros de água são necessários para encher totalmente a piscina. A piscina é conhecida por ter dimensões lineares a * b * c, dado em metros.  Essas dimensões são passadas para getVolume método. O método deverá retornar a quantidade de litros de água necessários para encher a piscina.
+## nessa tarefa é encher a piscina do navio. Calcule quantos litros de água são necessários para encher totalmente a piscina. A piscina é conhecida por ter dimensões lineares a * b * c, dado em metros.  Essas dimensões são passadas para getVolume método. O método deverá retornar a quantidade de litros de água necessários para encher a piscina.
 
 # Requisitos:
-•   The getVolume(int, int, int) method must be public and static.
+•   O método getVolume(int, int, int) deve ser público e estático.
 
-•   The getVolume(int, int, int) method must return a long.
+•   O método getVolume(int, int, int) deve retornar um valor longo.
 
-•   The getVolume(int, int, int) method should not display anything.
+•   O método getVolume(int, int, int) não deve exibir nada.
 
-•   The getVolume(int, int, int) method must return the correct amount of water, in liters, that is needed to fill the pool.
+•   O método getVolume(int, int, int) deve retornar a quantidade correta de água, em litros, necessária para encher a piscina.
