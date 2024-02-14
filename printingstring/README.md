@@ -1,5 +1,6 @@
 ## Implementar o public static void writeToConsole (String s) método, que adiciona "printing:" ao início da string e exibe a string alterada.
 
+
 # Requisitos:
 •   Adicione um método writeToConsole que receba um argumento String.
 
