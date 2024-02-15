@@ -1,14 +1,14 @@
-## Exiba o seguinte texto (duas linhas):
+# Exiba o seguinte texto (duas linhas):
 This is a Windows path: "C:\Program Files\Java\jdk1.8.0_172\bin"
 
 This is a Java string: \"C:\\Program Files\\Java\\jdk1.8.0_172\\bin\"
 
-# Dica:
+### Dica:
 \" – Sequência de escape para caracteres de aspas duplas.
 
 \\ – Sequência de escape para um caractere de barra invertida (\).
 
-# Requisitos:
+### Requisitos:
 •	O programa deve gerar texto.
 
 •	Duas linhas devem ser exibidas.
