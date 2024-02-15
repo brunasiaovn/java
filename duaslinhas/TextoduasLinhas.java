@@ -1,4 +1,4 @@
-package duaslinha;
+package duaslinhas;
 
 public class TextoduasLinhas {
     public static void main(String[] args) {
