@@ -1,4 +1,4 @@
-package conversoes;
+package conversoesparapes;
 
 public class conversaopes {
 
