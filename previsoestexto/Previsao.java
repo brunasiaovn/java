@@ -1,4 +1,4 @@
-package previsoes;
+package previsoestexto;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
