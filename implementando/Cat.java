@@ -9,10 +9,15 @@ public class Cat {
     }
 
     public boolean fight(Cat anotherCat) {
-        //write your code here
+        int agePlus = this.age > anotherCat.age ? 1 : 0;
+        int weightPlus = this.weight > anotherCat.weight ? 1 : 0;
+        int strengthPlus = this.strength > anotherCat.strength ? 1 : 0;
+
+        int score = agePlus + weightPlus + strengthPlus;
+        return score > 2;
     }
+
     public static void main(String[] args) {
 
     }
 }
-    
