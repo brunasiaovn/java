@@ -2,7 +2,13 @@ package carnificina;
 
 public class Solucao {
     public static void main(String[] args) {
-        //write your code here
+        Cat cat1 = new Cat("nam1", 2, 2, 2);
+        Cat cat2 = new Cat("nam2", 2, 2, 2);
+        Cat cat3 = new Cat("nam3", 3, 3, 3);
+
+        System.out.println(cat1.fight(cat2));
+        System.out.println(cat1.fight(cat3));
+        System.out.println(cat2.fight(cat3));
     }
 
     public static class Cat {
