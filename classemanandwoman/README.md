@@ -19,3 +19,9 @@
 • A classe Woman deve ter as variáveis: String nome, int idade e String endereço.
 
 • As classes Man e Woman devem ter construtores que aceitem argumentos de String, int e String.
+
+• Os construtores devem inicializar as variáveis de instância.
+
+• No método principal, você precisa criar dois objetos de cada tipo.
+
+• O método principal deve exibir os objetos criados na tela no formato especificado.
