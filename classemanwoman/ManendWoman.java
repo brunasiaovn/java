@@ -2,8 +2,5 @@ package classemanwoman;
 
 public class ManendWoman {
     public static void main(String[] args) {
-        //write your code here
-    }
-
-    //write your code here
-}
+        Man man1 = new Man("Annie", 23, "Mid Lane");
+        Man m
