@@ -2,7 +2,22 @@ package cat;
 
 public class Cat {
 
-    // Escreva seu código aqui
+    public String name;
+    public int age;
+
+    public Cat() {
+    }
+
+    public Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
+
     public static void main(String[] args) {
     
     }   
