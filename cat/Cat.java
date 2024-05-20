@@ -13,6 +13,7 @@ public class Cat {
         this.age = age;
     }
 
+    @SuppressWarnings("removal")
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
