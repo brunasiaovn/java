@@ -1,4 +1,4 @@
-package inicializandogato;
+package inicializandoGato;
 public class Gato {
     public String nome;
     public int idade;
