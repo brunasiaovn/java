@@ -1,5 +1,6 @@
 public class ClassePessoa {
         public static void main(String[] args) {
+        @SuppressWarnings("unused")
         Person person = new Person();
         }
     
