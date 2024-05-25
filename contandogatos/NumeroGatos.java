@@ -1,6 +1,7 @@
 package contandogatos;
 
 public class NumeroGatos {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Cat cat1 = new Cat();
         // add your code here
