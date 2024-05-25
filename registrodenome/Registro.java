@@ -1,6 +1,7 @@
 package registrodenome;
 
 public class Registro {
+    @SuppressWarnings("unused")
     private String fullName;
 
     public void setName(String firstName, String lastName) {
