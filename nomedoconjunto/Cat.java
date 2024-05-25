@@ -1,6 +1,7 @@
 package nomedoconjunto;
 
 public class Cat {
+    @SuppressWarnings("unused")
     private String name = "gato sem nome";
 
     public void setName(String name) {
