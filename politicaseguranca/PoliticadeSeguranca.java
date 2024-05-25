@@ -7,6 +7,7 @@ public class PoliticadeSeguranca {
 
     public static void main(String[] args) throws Exception {
         BufferedReader bis = new BufferedReader(new InputStreamReader(System.in));
+        @SuppressWarnings("unused")
         String nome = bis.readLine();
         int idade = Integer.parseInt(bis.readLine());
 
